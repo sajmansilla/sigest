@@ -1,0 +1,3 @@
+Name               Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------
+modelo/modelo.py     124     11      4      0    88%   144, 157-170

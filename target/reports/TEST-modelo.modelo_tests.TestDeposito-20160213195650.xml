@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestDeposito-20160213195650" tests="4" time="0.068">
+	<testcase classname="modelo.modelo_tests.TestDeposito" name="test1_save_try" time="0.027"/>
+	<testcase classname="modelo.modelo_tests.TestDeposito" name="test2_save_except" time="0.011"/>
+	<testcase classname="modelo.modelo_tests.TestDeposito" name="test3_find" time="0.019"/>
+	<testcase classname="modelo.modelo_tests.TestDeposito" name="test3_notfind" time="0.011"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

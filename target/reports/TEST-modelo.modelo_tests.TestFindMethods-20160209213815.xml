@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestFindMethods-20160209213815" tests="4" time="0.146">
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testfind" time="0.026"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testnotfind" time="0.013"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testrepr" time="0.066"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testsave" time="0.041"/>
+	<system-out>
+<![CDATA[No se encontro
+Articulo('n', 'n')
+El Articulo se elimino correctamente.
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

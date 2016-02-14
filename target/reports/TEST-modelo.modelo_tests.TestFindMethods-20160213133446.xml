@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestFindMethods-20160213133446" tests="4" time="0.088">
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="test0repr" time="0.001"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="test1save" time="0.044"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="test2find" time="0.011"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="test3dlt" time="0.032"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

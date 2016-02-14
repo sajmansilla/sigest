@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="modelo.modelo_tests.TestFindMethods-20160209214008" tests="5" time="0.168">
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testfind" time="0.025"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testnotfind" time="0.019"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testrepr" time="0.067"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testsave" time="0.052"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testdlt" time="0.006">
+		<failure message="None != 'El Articulo se elimino correctamente.'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/sebastian/proyectos/SiGeSt/src/unittest/python/modelo/modelo_tests.py", line 41, in testdlt
+    self.assertEqual(self.artMock.dlt(), "El Articulo se elimino correctamente.")
+AssertionError: None != 'El Articulo se elimino correctamente.'
+
+Stdout:
+Error eliminando:  <class 'sqlalchemy.exc.InvalidRequestError'>
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[No se encontro
+Articulo('n', 'n')
+El Articulo se elimino correctamente.
+Error eliminando:  <class 'sqlalchemy.exc.InvalidRequestError'>
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

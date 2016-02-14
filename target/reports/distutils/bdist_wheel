@@ -1,0 +1,24 @@
+running clean
+'build/temp.linux-i686-3.5' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-i686' does not exist -- can't clean it
+'build/scripts-3.5' does not exist -- can't clean it
+running bdist_wheel
+running build
+installing to build/bdist.linux-i686/wheel
+running install
+running install_egg_info
+running egg_info
+writing top-level names to SiGeSt.egg-info/top_level.txt
+writing SiGeSt.egg-info/PKG-INFO
+writing dependency_links to SiGeSt.egg-info/dependency_links.txt
+reading manifest file 'SiGeSt.egg-info/SOURCES.txt'
+writing manifest file 'SiGeSt.egg-info/SOURCES.txt'
+Copying SiGeSt.egg-info to build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0-py3.5.egg-info
+Copying PKG-INFO to build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0-py3.5.egg-info/PKG-INFO
+Copying top_level.txt to build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0-py3.5.egg-info/top_level.txt
+Copying dependency_links.txt to build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0-py3.5.egg-info/dependency_links.txt
+Copying zip-safe to build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0-py3.5.egg-info/zip-safe
+Copying SOURCES.txt to build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0-py3.5.egg-info/SOURCES.txt
+running install_scripts
+creating build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0.dist-info/WHEEL

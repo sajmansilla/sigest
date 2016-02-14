@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="2" name="modelo.modelo_tests.TestFindMethods-20160209214947" tests="5" time="0.163">
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testfind" time="0.034"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testnotfind" time="0.012"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testrepr" time="0.001"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testdlt" time="0.113">
+		<failure message="None != 'El Articulo se elimino correctamente.'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/sebastian/proyectos/SiGeSt/src/unittest/python/modelo/modelo_tests.py", line 40, in testdlt
+    self.assertEqual(self.artMock.dlt(), "El Articulo se elimino correctamente.")
+AssertionError: None != 'El Articulo se elimino correctamente.'
+
+Stdout:
+El Articulo se elimino correctamente.
+]]>		</failure>
+	</testcase>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testsave" time="0.004">
+		<failure message="None != 'El Articulo se inserto correctamente.'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/sebastian/proyectos/SiGeSt/src/unittest/python/modelo/modelo_tests.py", line 18, in testsave
+    self.assertEqual(self.artMock.save(),'El Articulo se inserto correctamente.')
+AssertionError: None != 'El Articulo se inserto correctamente.'
+
+Stdout:
+Error:  <class 'sqlalchemy.exc.InvalidRequestError'>
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[Error:  <class 'sqlalchemy.exc.InvalidRequestError'>
+No se encontro
+El Articulo se elimino correctamente.
+El Articulo se elimino correctamente.
+Error:  <class 'sqlalchemy.exc.InvalidRequestError'>
+]]>	</system-out>
+	<system-err>
+<![CDATA[/usr/lib/python3.5/site-packages/sqlalchemy/orm/persistence.py:925: SAWarning: DELETE statement on table 'articulos' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning.
+  (table.description, expected, rows_matched)
+]]>	</system-err>
+</testsuite>

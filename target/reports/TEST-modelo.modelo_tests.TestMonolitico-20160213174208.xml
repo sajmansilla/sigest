@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestMonolitico-20160213174208" tests="5" time="0.102">
+	<testcase classname="modelo.modelo_tests.TestMonolitico" name="test1_save_try" time="0.042"/>
+	<testcase classname="modelo.modelo_tests.TestMonolitico" name="test3_find" time="0.011"/>
+	<testcase classname="modelo.modelo_tests.TestMonolitico" name="test4_dlt" time="0.033"/>
+	<testcase classname="modelo.modelo_tests.TestMonolitico" name="test5_notfind" time="0.015"/>
+	<testcase classname="modelo.modelo_tests.TestMonolitico" name="test6_repr" time="0.001"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

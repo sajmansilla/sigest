@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestFindMethods-20160209184707" tests="3" time="0.129">
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testfind" time="0.015"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testrepr" time="0.001"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testsave" time="0.113"/>
+	<system-out>
+<![CDATA[Error en Select.
+No se encontro
+El Articulo se elimino correctamente.
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

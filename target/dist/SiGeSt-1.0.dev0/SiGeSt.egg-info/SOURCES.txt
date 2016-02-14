@@ -1,0 +1,6 @@
+setup.py
+SiGeSt.egg-info/PKG-INFO
+SiGeSt.egg-info/SOURCES.txt
+SiGeSt.egg-info/dependency_links.txt
+SiGeSt.egg-info/top_level.txt
+SiGeSt.egg-info/zip-safe

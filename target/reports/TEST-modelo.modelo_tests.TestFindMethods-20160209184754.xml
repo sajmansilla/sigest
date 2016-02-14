@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestFindMethods-20160209184754" tests="3" time="0.082">
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testfind" time="0.015"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testrepr" time="0.001"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testsave" time="0.067"/>
+	<system-out>
+<![CDATA[Error en Select.
+Error eliminando:  <class 'sqlalchemy.exc.InvalidRequestError'>
+No se encontro
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

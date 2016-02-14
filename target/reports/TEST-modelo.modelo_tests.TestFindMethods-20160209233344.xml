@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="modelo.modelo_tests.TestFindMethods-20160209233344" tests="5" time="0.278">
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testdlt" time="0.226"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testfind" time="0.034"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testnotfind" time="0.012"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testrepr" time="0.001"/>
+	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testsave" time="0.005">
+		<failure message="None != 'El Articulo se inserto correctamente.'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/sebastian/proyectos/SiGeSt/src/unittest/python/modelo/modelo_tests.py", line 19, in testsave
+    'El Articulo se inserto correctamente.')
+AssertionError: None != 'El Articulo se inserto correctamente.'
+
+Stdout:
+Intentando salvar n
+Entró al try
+Entró al except
+Error insertando:  <class 'sqlalchemy.exc.InvalidRequestError'>
+Entró al finally
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[Intentando salvar n
+Entró al try
+Pasó el add
+Entró al finally
+Articulo('n', 'n')
+Intentando salvar n
+Entró al try
+Entró al except
+Error insertando:  <class 'sqlalchemy.exc.InvalidRequestError'>
+Entró al finally
+No se encontro
+Intentando salvar n
+Entró al try
+Entró al except
+Error insertando:  <class 'sqlalchemy.exc.InvalidRequestError'>
+Entró al finally
+]]>	</system-out>
+	<system-err>
+<![CDATA[/usr/lib/python3.5/site-packages/sqlalchemy/orm/persistence.py:925: SAWarning: DELETE statement on table 'articulos' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning.
+  (table.description, expected, rows_matched)
+]]>	</system-err>
+</testsuite>

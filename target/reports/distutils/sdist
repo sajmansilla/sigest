@@ -1,0 +1,40 @@
+running clean
+'build/temp.linux-i686-3.5' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-i686' does not exist -- can't clean it
+'build/scripts-3.5' does not exist -- can't clean it
+running sdist
+running egg_info
+creating SiGeSt.egg-info
+writing SiGeSt.egg-info/PKG-INFO
+writing top-level names to SiGeSt.egg-info/top_level.txt
+writing dependency_links to SiGeSt.egg-info/dependency_links.txt
+writing manifest file 'SiGeSt.egg-info/SOURCES.txt'
+reading manifest file 'SiGeSt.egg-info/SOURCES.txt'
+writing manifest file 'SiGeSt.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating SiGeSt-1.0.dev0
+creating SiGeSt-1.0.dev0/SiGeSt.egg-info
+making hard links in SiGeSt-1.0.dev0...
+hard linking setup.py -> SiGeSt-1.0.dev0
+hard linking SiGeSt.egg-info/PKG-INFO -> SiGeSt-1.0.dev0/SiGeSt.egg-info
+hard linking SiGeSt.egg-info/SOURCES.txt -> SiGeSt-1.0.dev0/SiGeSt.egg-info
+hard linking SiGeSt.egg-info/dependency_links.txt -> SiGeSt-1.0.dev0/SiGeSt.egg-info
+hard linking SiGeSt.egg-info/top_level.txt -> SiGeSt-1.0.dev0/SiGeSt.egg-info
+hard linking SiGeSt.egg-info/zip-safe -> SiGeSt-1.0.dev0/SiGeSt.egg-info
+not copying SiGeSt.egg-info/SOURCES.txt (output up-to-date)
+Reading configuration from SiGeSt-1.0.dev0/setup.cfg
+Adding new section [egg_info] to SiGeSt-1.0.dev0/setup.cfg
+Setting egg_info.tag_build to '' in SiGeSt-1.0.dev0/setup.cfg
+Setting egg_info.tag_date to 0 in SiGeSt-1.0.dev0/setup.cfg
+Setting egg_info.tag_svn_revision to 0 in SiGeSt-1.0.dev0/setup.cfg
+Writing SiGeSt-1.0.dev0/setup.cfg
+creating dist
+Creating tar archive
+removing 'SiGeSt-1.0.dev0' (and everything under it)

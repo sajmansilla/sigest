@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestArticulo-20160213200827" tests="7" time="0.112">
+	<testcase classname="modelo.modelo_tests.TestArticulo" name="test1_save_try" time="0.055"/>
+	<testcase classname="modelo.modelo_tests.TestArticulo" name="test2_save_except" time="0.008"/>
+	<testcase classname="modelo.modelo_tests.TestArticulo" name="test3_find" time="0.011"/>
+	<testcase classname="modelo.modelo_tests.TestArticulo" name="test3_notfind" time="0.009"/>
+	<testcase classname="modelo.modelo_tests.TestArticulo" name="test4_dlt" time="0.025"/>
+	<testcase classname="modelo.modelo_tests.TestArticulo" name="test4_dlt_except" time="0.002"/>
+	<testcase classname="modelo.modelo_tests.TestArticulo" name="test6_repr" time="0.001"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

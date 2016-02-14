@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="modelo.modelo_tests.TestStock-20160214160826" tests="3" time="0.016">
+	<testcase classname="modelo.modelo_tests.TestStock" name="test100_repr" time="0.001"/>
+	<testcase classname="modelo.modelo_tests.TestStock" name="test1_save" time="0.013"/>
+	<testcase classname="modelo.modelo_tests.TestStock" name="test2_findDep" time="0.003">
+		<error message="name 'idDep' is not defined" type="NameError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/sebastian/proyectos/SiGeSt/src/unittest/python/modelo/modelo_tests.py", line 128, in test2_findDep
+    reult = self.stkMock.find('',idDep)
+NameError: name 'idDep' is not defined
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
