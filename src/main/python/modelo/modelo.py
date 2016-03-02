@@ -129,12 +129,11 @@ class Stock(Base):
     idDep = Column(String(13), ForeignKey('depositos.id'), primary_key = True)
     stock = Column(Float)
 
-    def __init__(self, idArt, idDep, cantid): # Si se agrega un registro, debe
-                                              # estar completo.
-#       self.session.query(Articulo).filter(Articulo.id == idArt)
-#       self.idDep = idDep
-#       self.stock = cantid
-        self.idArt = idArt
+    def __init__(self):
+        pass
+
+    def iniciar(self, idArt, idDep, cantid): # Si se agrega un registro, debe
+        self.idArt = idArt                    # estar completo.
         self.idDep = idDep
         self.stock = cantid
 
@@ -146,29 +145,18 @@ class Stock(Base):
             self.session.add(self)
             self.session.commit()
             salida = 'El stock se grabo correctamente.'
-        except exc.IntegrityError: # Exception as e:
-#           self.session.rollback()
-#           print(e)
-#           salida = e
-#           exc_type, exc_value, exc_traceback = sys.exc_info()
-#           salida = exc_value
-            salida = 'Error registrando el stock. Excepcion de integridad.'
-        finally:
-            self.session.close()
-            return salida
-
-    def findDepId(self, idDep):
-        try:
-            salida = self.session.query(Stock).filter(Stock.idDep == idDep)
-        except Exception as e:
-            salida = e
+        except exc.IntegrityError:
+            self.session.rollback()
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            one, salida, none = sys.exc_info()
+#           salida = 'Error registrando el stock. Excepcion de integridad.'
         finally:
             self.session.close()
             return salida
 
     def find(self, idArt, idDep):
         if (idArt == ''):
-            salida = self.findDepId(idDep)
+            salida = findDepId(idDep)
         elif (idDep == ''):
             salida = findArtId(idArt)
         else:

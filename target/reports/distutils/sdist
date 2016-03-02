@@ -6,9 +6,9 @@ running clean
 running sdist
 running egg_info
 creating SiGeSt.egg-info
-writing SiGeSt.egg-info/PKG-INFO
 writing top-level names to SiGeSt.egg-info/top_level.txt
 writing dependency_links to SiGeSt.egg-info/dependency_links.txt
+writing SiGeSt.egg-info/PKG-INFO
 writing manifest file 'SiGeSt.egg-info/SOURCES.txt'
 reading manifest file 'SiGeSt.egg-info/SOURCES.txt'
 writing manifest file 'SiGeSt.egg-info/SOURCES.txt'
@@ -31,8 +31,8 @@ hard linking SiGeSt.egg-info/zip-safe -> SiGeSt-1.0.dev0/SiGeSt.egg-info
 not copying SiGeSt.egg-info/SOURCES.txt (output up-to-date)
 Reading configuration from SiGeSt-1.0.dev0/setup.cfg
 Adding new section [egg_info] to SiGeSt-1.0.dev0/setup.cfg
-Setting egg_info.tag_build to '' in SiGeSt-1.0.dev0/setup.cfg
 Setting egg_info.tag_date to 0 in SiGeSt-1.0.dev0/setup.cfg
+Setting egg_info.tag_build to '' in SiGeSt-1.0.dev0/setup.cfg
 Setting egg_info.tag_svn_revision to 0 in SiGeSt-1.0.dev0/setup.cfg
 Writing SiGeSt-1.0.dev0/setup.cfg
 creating dist

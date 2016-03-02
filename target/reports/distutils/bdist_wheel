@@ -9,9 +9,9 @@ installing to build/bdist.linux-i686/wheel
 running install
 running install_egg_info
 running egg_info
-writing top-level names to SiGeSt.egg-info/top_level.txt
-writing SiGeSt.egg-info/PKG-INFO
 writing dependency_links to SiGeSt.egg-info/dependency_links.txt
+writing SiGeSt.egg-info/PKG-INFO
+writing top-level names to SiGeSt.egg-info/top_level.txt
 reading manifest file 'SiGeSt.egg-info/SOURCES.txt'
 writing manifest file 'SiGeSt.egg-info/SOURCES.txt'
 Copying SiGeSt.egg-info to build/bdist.linux-i686/wheel/SiGeSt-1.0.dev0-py3.5.egg-info

@@ -142,13 +142,11 @@ class Stock(Base):
             self.session.add(self)
             self.session.commit()
             salida = 'El stock se grabo correctamente.'
-        except exc.IntegrityError: # as e:
-#           self.session.rollback()
-#           print(e)
-#           salida = e
-#           exc_type, exc_value, exc_traceback = sys.exc_info()
-#           salida = exc_value
-            salida = 'Error registrando el stock. Excepcion de integridad.'
+        except exc.IntegrityError:
+            self.session.rollback()
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            one, salida, none = sys.exc_info()
+#           salida = 'Error registrando el stock. Excepcion de integridad.'
         finally:
             self.session.close()
             return salida

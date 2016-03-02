@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestStock-20160214122307" tests="1" time="0.025">
-	<testcase classname="modelo.modelo_tests.TestStock" name="test1_save" time="0.025"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>

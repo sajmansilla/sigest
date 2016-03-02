@@ -1,18 +1,10 @@
 
 Running tests...
 ----------------------------------------------------------------------
-.................F
-======================================================================
-FAIL [0.004s]: test2_findDep (modelo.modelo_tests.TestStock)
+....
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/sebastian/proyectos/SiGeSt/src/unittest/python/modelo/modelo_tests.py", line 133, in test2_findDep
-    self.assertEqual(result, expected)
-AssertionError: <sqlalchemy.orm.query.Query object at 0xb5c8182c> != 'Deposito'
+Ran 4 tests in 0.019s
 
-----------------------------------------------------------------------
-Ran 18 tests in 0.287s
-
-FAILED (failures=1)
+OK
 
 Generating XML reports...

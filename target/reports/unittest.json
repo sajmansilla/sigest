@@ -1,10 +1,5 @@
 {
   "errors": [],
-  "failures": [
-    {
-      "test": "modelo.modelo_tests.TestStock.test2_findDep",
-      "traceback": "Traceback (most recent call last):\n  File \"/home/sebastian/proyectos/SiGeSt/src/unittest/python/modelo/modelo_tests.py\", line 133, in test2_findDep\n    self.assertEqual(result, expected)\nAssertionError: <sqlalchemy.orm.query.Query object at 0xb5c8182c> != 'Deposito'\n"
-    }
-  ],
-  "tests-run": 18
+  "failures": [],
+  "tests-run": 4
 }

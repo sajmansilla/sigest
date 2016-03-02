@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" name="modelo.modelo_tests.TestFindMethods-20160213102506" tests="1" time="0.078">
-	<testcase classname="modelo.modelo_tests.TestFindMethods" name="testsave" time="0.078"/>
-	<system-out>
-<![CDATA[]]>	</system-out>
-	<system-err>
-<![CDATA[]]>	</system-err>
-</testsuite>
